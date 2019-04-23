@@ -51,9 +51,11 @@ end
 def for_iterator(number_of_times)
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
-
+  time = 1..20
   phrase = "Welcome to Flatiron School's Web Development Course!"
-
+  for number_of_times in time
+    put phares
+    time += 1
 
 
 end
